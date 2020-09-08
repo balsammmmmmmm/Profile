@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+section {
+    color: white;
+    height: 100vh;
+    background: #1C6EA4;
+    background: -moz-linear-gradient(top, #1C6EA4 0%, #2388CB 71%, #144E75 100%);
+    background: -webkit-linear-gradient(top, #1C6EA4 0%, #2388CB 71%, #144E75 100%);
+    background: linear-gradient(to bottom, #1C6EA4 0%, #2388CB 71%, #144E75 100%);
+}
+
+.game {
+    font-family: Nunito;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+}
+
+.intro h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.action {
+    display: flex;
+    height: 30vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action div a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(244, 255, 31);
+}
+
+.play-button {
+    display: flex;
+    margin-top: 0.5rem auto;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease;
+}
+
+.options {
+    display: flex;
+    margin-bottom: 0.5rem auto;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease 0.5s;
+}
+.options button{
+    margin: auto 0.5rem;
+}
+
+.score {
+    display: flex;
+    height: 10vh;
+    margin: 1rem auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.score div {
+    text-align: center;
+}
+
+.score div h2 {
+    margin: 0.5rem auto;
+}
+.score div p{
+    margin: 0.5rem auto;
+}
+
+
+.rules {
+    height: 15vh;
+    margin: 1.6rem 0.6rem;
+    text-align: center;
+    opacity: 0.5;
+    font-size: 0.5rem;
+    transition: 0.2s;
+}
+
+.rules h2 {
+    margin: 0.5rem auto;
+}
+
+.rules:hover {
+    opacity: 1;
+    font-size: 1rem;
+}
+
+div.fadeOut {
+    opacity: 0;
+    pointer-events: none;
+}
+
+div.fadeIn {
+    opacity: 1;
+    pointer-events: all;
+}

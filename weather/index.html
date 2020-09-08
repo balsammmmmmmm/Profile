@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html id="no-js">
+
+<head>
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <title>Weather</title>
+     <meta name="description" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <div class="container">
+          <div class="flex">
+               <div id="location">
+                    <h1 class="location-city">Asia/Astana</h1>
+                    <p class="location-status">☀</p>
+               </div>
+               <div id="temperature">
+                    <h1 class="temperature-degree">Loading...</h1>
+                    <div class="temperature-status">Loading</div>
+               </div>
+          </div>
+
+          <div class="flex zsn">
+               <div id="second-location">
+                    <h1 class="second-location-city">Asia/Zaysan</h1>
+                    <p class="location-status">☀</p>
+               </div>
+               <div id="second-temperature">
+                    <h1 class="second-temperature-degree">Loading...</h1>
+                    <div class="second-temperature-status">Loading</div>
+               </div>
+          </div>
+          
+          <div class="flex moscow">
+               <div id="third-location">
+                    <h1 class="third-location-city">Russia/Moscow</h1>
+                    <p class="third-status">☀</p>
+               </div>
+               <div id="third-temperature">
+                    <h1 class="third-temperature-degree">Loading...</h1>
+                    <div class="third-temperature-status">Loading</div>
+               </div>
+          </div>
+     </div>
+     <script src="app.js" async defer></script>
+</body>
+
+</html>

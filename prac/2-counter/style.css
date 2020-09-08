@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-content {
+    font-size: 2.4rem;
+    font-family: "Bungee Hairline", cursive;
+    color: black;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.btns a{
+    text-decoration: none;
+    color: rgb(88, 88, 211);
+}

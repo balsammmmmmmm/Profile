@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline&display=swap');
+.main{
+     height: 100vh;
+     display: grid;
+     grid-template-columns: auto auto;
+     grid-gap: 1.5rem;
+     justify-content: center;
+     align-content: center;
+     
+}
+.main{
+     background: linear-gradient(#000000c5,  #000000c5),url(back.jpg), no-repeat center center fixed;
+     background-size: cover;
+     
+}
+.main__inner{
+     display: inline;
+     overflow: hidden;
+}
+.texts{
+     font-family: 'Bungee Hairline', cursive;
+     margin-bottom: 1.5rem;
+     text-decoration: none;
+     color: white;
+     
+}
+
+
+
+
+.link, p { 
+  animation: showup 7s forwards;
+}
+
+.link, p {
+  width: auto;
+  animation: reveal 5s forwards;
+}
+
+.link, p {
+  margin-left:-355px;
+  animation: slidein 7s forwards;
+}
+
+.btn { 
+     animation: showupbtn 5s forwards;
+   }
+
+@keyframes showupbtn {
+     0% {opacity:0;}
+     20% {opacity:0;}
+     45% {opacity:0;}
+     60% {opacity:1;}
+     100% {opacity:1;}
+ } 
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:1;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:auto;}
+    80% {opacity:1;}
+    100% {opacity:1;width:auto;}
+}
+
+
+p{
+     margin-bottom: 1rem;
+}
+     p:nth-child(1){
+        font-size: 2.7rem;
+     }
+     p:nth-child(2){
+          color: #DAA520;
+          padding-bottom: 0.5rem;
+          
+          font-size: 1.7rem;
+          border-bottom: 1px solid;
+          /* border-bottom-width: 1rem; */
+       }
+     p:nth-child(3){
+          padding-top: 0.5rem;
+          font-family: 'Nunito', sans-serif;  
+     }
+
+.btn{
+     border: 0.2rem solid #DAA520;
+     border-radius:0.12em;
+     background-color: rgba(238, 232, 170, 0.068);
+     text-align: center;
+     padding: 10px;
+     width: 65px;
+     font-family: 'Nunito', sans-serif;  
+     text-transform: uppercase;
+}
+
+ 
+ 
+.btn>a{
+     text-decoration:none;
+     color:white;
+}
+
+/* links */
+.link{
+     margin: 1rem 0rem;
+}
+.links{
+     padding-right: 0.3rem;
+     font-size: 1.5rem;
+     text-decoration: none;
+     color: white;
+     transition: .2s cubic-bezier(1, 0, 0, 1);
+}
+     .links:nth-child(1):hover{
+          color: #55acee;
+          font-size: 1.7rem;
+     }
+     .links:nth-child(2):hover{
+          color: #e4405f;
+          font-size: 1.7rem;
+     }
+     .links:nth-child(3):hover{
+          color: gray;
+          font-size: 1.7rem;
+     }
+
+
+
+
+/* AVATAR */
+img{
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+     background: linear-gradient(#000000c5,  #000000c5)
+     -webkit-animation-duration: 1.7s;
+     animation-duration: 1.7s;
+}
+
+@media (max-width: 767px){
+     .main{
+          width: 100%;
+          display: inline-block;
+          text-align: center;
+          padding: 1rem 1rem 0rem 1rem;
+     }
+     
+     .btn{
+          width: auto;
+          animation: showup 7s forwards;
+          margin-bottom: 10px;
+     }
+     .ava{
+          margin-top: 10px;
+     }
+     @keyframes showup {
+          0% {opacity:0;}
+          20% {opacity:0;}
+          80% {opacity:1;}
+          100% {opacity:1;}
+      }   
+     
+
+      @keyframes reveal {
+          0% {opacity:0;}
+          100% {opacity:1;}
+      }
+
+     @keyframes slidein{
+     0% { margin:0px; }
+     20% { margin:0px; }
+     35% { margin:0px; }
+     100% { margin:0px; }
+     }
+}
+
+

@@ -1,0 +1,3 @@
+User-agent: *
+Host: 
+Sitemap: http://belavor.github.io/sitemap.xml

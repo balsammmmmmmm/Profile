@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline&display=swap');
+/* 
+font-family: 'Bungee Hairline', cursive;
+background-color: antiquewhite;
+color: rgb(88, 88, 211);
+ */
+
+ main{
+    height: 100vh;
+    font-family: 'Bungee Hairline', cursive;
+    background-color: antiquewhite;
+    color: rgb(33, 33, 195);
+ }
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40vh;
+}
+ .title {
+     text-align: center;
+ }
+ .underline {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/star.svg");
+    background-position: 0 1.06em;
+    background-size: 10px 9px;
+    color: #f2f3f8; }
+.review {
+    text-align: center;
+}
